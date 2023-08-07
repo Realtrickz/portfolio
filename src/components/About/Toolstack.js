@@ -5,7 +5,6 @@ import {
   SiFirebase,
   SiFigma,
   SiGithub,
-  SiMacos,
 } from "react-icons/si";
 
 function Toolstack() {
