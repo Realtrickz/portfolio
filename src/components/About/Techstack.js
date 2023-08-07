@@ -11,7 +11,6 @@ import {
   SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
