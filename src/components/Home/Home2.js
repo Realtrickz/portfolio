@@ -7,6 +7,9 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import { 
+  BsDiscord,
+} from "react-icons/bs";
 
 function Home2() {
   return (
@@ -41,6 +44,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+                <li className="social-icons">
+                <a
+                  href="https://discord.com/channels/@me/853188494230683649"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <BsDiscord />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/Realtrickz"
