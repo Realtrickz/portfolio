@@ -5,6 +5,9 @@ import {
   AiOutlineTwitter,
   AiOutlineDiscord,
 } from "react-icons/ai";
+import { 
+  BsDiscord,
+} from "react-icons/bs";
 
 function Footer() {
   let date = new Date();
@@ -47,7 +50,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineDiscord />
+                <BsDiscord />
               </a>
             </li>
             {/* <li className="social-icons">
