@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiOutlineDiscord,
 } from "react-icons/ai";
 import { 
   BsDiscord,
