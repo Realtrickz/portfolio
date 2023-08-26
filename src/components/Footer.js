@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
+  AiOutlineDiscord,
 } from "react-icons/ai";
 
 function Footer() {
@@ -37,6 +38,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://discord.com/channels/@me/853188494230683649"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineDiscord />
               </a>
             </li>
             {/* <li className="social-icons">
